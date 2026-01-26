@@ -1,6 +1,6 @@
-# oxlint-tsgolint-issue-135
+# oxlint-tsgolint-issue-611
 
-Minimal reproduction repository for "`no-floating-promises` with `allowForKnownSafeCalls` not working" issue: <https://github.com/oxc-project/tsgolint/issues/135>.
+Minimal reproduction repository for `unbound-method` issue: <https://github.com/oxc-project/tsgolint/issues/611>.
 
 ## Prerequisites
 
@@ -11,6 +11,6 @@ Minimal reproduction repository for "`no-floating-promises` with `allowForKnownS
 ```sh
 npm clean-install
 
-# This will report an error due to a floating promise when it shouldn't
-node --run lint
+# This will report an error due to a unbound method when it shouldn't
+node --run oxlint
 ```

@@ -2,17 +2,6 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["typescript"],
   "rules": {
-    "@typescript-eslint/no-floating-promises": [
-      "error",
-      {
-        "allowForKnownSafeCalls": [
-          {
-            "from": "package",
-            "name": ["test", "it", "suite", "describe"],
-            "package": "node:test"
-          }
-        ]
-      }
-    ]
+    "@typescript-eslint/unbound-method": "error"
   }
 }
