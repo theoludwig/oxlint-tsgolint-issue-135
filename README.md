@@ -1,6 +1,8 @@
-# oxlint-tsgolint-issue-611
+# microsoft/typescript-go/issues/2797
 
-Minimal reproduction repository for `unbound-method` issue: <https://github.com/oxc-project/tsgolint/issues/611>.
+TS2488: Generic type parameter not inferred from JSX props, falls back to default
+
+Minimal reproduction repository for `TS2488` issue: <https://github.com/microsoft/typescript-go/issues/2797>.
 
 ## Prerequisites
 
